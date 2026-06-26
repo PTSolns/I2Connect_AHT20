@@ -99,8 +99,6 @@ The PTSolns I2Connect: MUX module provides four independent I2C channels, allowi
 
 ---
 
----
-
 ## *PTSolns IDE*
 
 The [*PTSolns IDE*](https://ptsolns.com/ide) is a free desktop application for programming PTSolns microcontroller development boards and compatible Arduino platforms.
@@ -114,7 +112,7 @@ To install:
 3. Search for:
 
 ```text
-I2Connect_EEPROM
+I2Connect_AHT20
 ```
 
 4. Click Install.
