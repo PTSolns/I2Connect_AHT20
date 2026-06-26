@@ -179,3 +179,73 @@ void loop()
 
 
 ---
+
+## Basic Functions
+
+## Initialization
+
+```cpp
+// Initializes sensor at default address 0x38 and 100kHz clock
+aht20.begin();
+```
+
+### Reading Sensor Data
+
+```cpp
+// You must call readData() before calling the getters
+if (aht20.readData()) {
+    float tempC = aht20.getTemperature();
+    float humidity = aht20.getHumidity();
+}
+```
+## Soft Reset
+
+```cpp
+// Useful for resetting the sensor if bus errors occur
+aht20.softReset();
+```
+---
+
+## Typical Applications
+
+* Weather stations
+* Environmental monitoring systems
+* Indoor air quality projects
+* Smart home devices
+* General-purpose data acquisition systems
+
+---
+## Included Examples
+
+| Example              | Description                                         |
+| -------------------- | ----------------------------------------------------|
+| 01_BasicRead         | Initialize and print basic measurements             |
+| 02_SerialPlotter     | Formatted output for the Arduino/PTSolns IDE Plotter|
+
+---
+
+## Documentation & Resources
+
+Additional resources are available through the PTSolns Documentation Repository, including:
+
+* Datasheets
+
+* Schematics
+
+* Pinout diagrams
+
+* 3D models
+
+* Fritzing files
+
+* Tutorials
+
+* Example projects
+
+* [PTSolns Documentation Repository](https://docs.ptsolns.com)
+
+* [PTSolns Website](https://ptsolns.com)
+
+* [Contact Support](https://ptsolns.com/contact-us)
+
+* [PTSolns IDE](https://ptsolns.com/ide)
