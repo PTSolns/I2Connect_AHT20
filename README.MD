@@ -131,3 +131,37 @@ The [*PTSolns IDE*](https://ptsolns.com/ide) can be used alongside the Arduino I
 
 ---
 
+## Quick Start
+
+```cpp
+#include <Wire.h>
+#include <PTSOLNS_I2CONNECT_AHT20.h>
+
+PTSOLNS_I2CONNECT_AHT20 aht20;
+
+void setup()
+{
+    Serial.begin(115200);
+    Wire.begin();
+
+    if (aht20.begin()) {
+        Serial.println("AHT20 initialized!");
+    } else {
+        Serial.println("Failed to find AHT20.");
+    }
+}
+
+void loop()
+{
+    if (aht20.readData()) {
+        Serial.print("Temp: ");
+        Serial.print(aht20.getTemperature());
+        Serial.print(" C, Hum: ");
+        Serial.print(aht20.getHumidity());
+        Serial.println(" %");
+    }
+    delay(2000);
+}
+```
+
+---
