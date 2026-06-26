@@ -165,3 +165,17 @@ void loop()
 ```
 
 ---
+
+## Library Functions
+
+| Function          | Description                           |
+| ----------------- | --------------------------------------|
+| begin()           | Initialize the sensor and I2C bus     |
+| readData()        | Trigger measurement and parse I2C data|
+| getTemperature()  | Return the last calculated temperature|
+| getHumidity()     | Return the last calculated humidity   |
+|isConnected()      | Check if device acknowledges address  |
+| calibrate()       | Send calibration command to sensor    |
+
+
+---
