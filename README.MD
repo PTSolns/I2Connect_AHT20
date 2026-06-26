@@ -97,4 +97,4 @@ The *I2Connect: AHT20* module uses a fixed I2C address of:
 This address cannot be modified. If multiple AHT20 modules are required in the same system, an I2C multiplexer must be used.
 The PTSolns I2Connect: MUX module provides four independent I2C channels, allowing up to four AHT20 modules with the same fixed I2C address to be connected to a single microcontroller.
 
-
+---
