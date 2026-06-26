@@ -217,10 +217,12 @@ aht20.softReset();
 ---
 ## Included Examples
 
-| Example              | Description                                         |
-| -------------------- | ----------------------------------------------------|
-| 01_BasicRead         | Initialize and print basic measurements             |
-| 02_SerialPlotter     | Formatted output for the Arduino/PTSolns IDE Plotter|
+| Example                | Description                                         |
+| ---------------------- | ----------------------------------------------------|
+| 01_BasicRead           | Initialize and print basic measurements             |
+| 02_SerialPlotter       | Formatted output for the Arduino/PTSolns IDE Plotter|
+| 03_LCD_Display         | Pairs AHT20 with a standard 16x2 I2C Character LCD  |
+
 
 ---
 
