@@ -98,3 +98,38 @@ This address cannot be modified. If multiple AHT20 modules are required in the s
 The PTSolns I2Connect: MUX module provides four independent I2C channels, allowing up to four AHT20 modules with the same fixed I2C address to be connected to a single microcontroller.
 
 ---
+
+---
+
+## *PTSolns IDE*
+
+The [*PTSolns IDE*](https://ptsolns.com/ide) is a free desktop application for programming PTSolns microcontroller development boards and compatible Arduino platforms.
+
+This library is available directly through both the PTSolns IDE Library Manager and the Arduino Library Manager.
+
+To install:
+
+1. Open the PTSolns IDE (or Arduino IDE).
+2. Open the Library Manager.
+3. Search for:
+
+```text
+I2Connect_EEPROM
+```
+
+4. Click Install.
+
+Features of the [*PTSolns IDE*](https://ptsolns.com/ide) include:
+
+* Integrated board management
+* Built in serial monitor
+* Library management
+* Example project browser
+* Support for over 8,500 third party libraries
+* Built in CH340 USB driver support
+* Open source and community driven
+
+The [*PTSolns IDE*](https://ptsolns.com/ide) can be used alongside the Arduino IDE and supports many PTSolns development boards out of the box.
+
+---
+
