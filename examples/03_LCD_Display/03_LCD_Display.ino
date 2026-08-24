@@ -24,7 +24,7 @@
 // fully compatible with both 3.3V and 5V microcontroller systems.
 
 #include <Wire.h>
-#include <PTSOLNS_I2CONNECT_AHT20.h>
+#include <PTSolns_I2Connect_AHT20.h>
 #include <LiquidCrystal_I2C.h>
 
 // User Settings
