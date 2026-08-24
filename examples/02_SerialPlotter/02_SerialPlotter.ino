@@ -29,7 +29,7 @@ const uint32_t SERIAL_BAUD  = 115200; // Serial baud setting
 const uint32_t I2C_CLOCK_HZ = 100000; // I2C clock speed. Keep at 100 kHz most of the time.
 const uint8_t  I2C_ADDRESS  = 0x38;   // Fixed address for the AHT20 sensor
 
-PTSOLNS_I2CONNECT_AHT20 aht20;
+PTSolns_I2Connect_AHT20 aht20;
 
 void setup() {
     Serial.begin(SERIAL_BAUD);
