@@ -137,7 +137,7 @@ The [*PTSolns IDE*](https://ptsolns.com/ide) can be used alongside the Arduino I
 #include <Wire.h>
 #include <PTSOLNS_I2CONNECT_AHT20.h>
 
-PTSOLNS_I2CONNECT_AHT20 aht20;
+PTSolns_I2Connect_AHT20 aht20;
 
 void setup()
 {
